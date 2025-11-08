@@ -1,0 +1,21 @@
+{
+  "patient": "s1_pressure70(3)",
+  "pressure": 70,
+  "overall_label": "abnormal",
+  "prob_normal": 0.01824766566775525,
+  "prob_abnormal": 0.9817523343322448,
+  "wavelengths": [
+    700,
+    720,
+    740,
+    760,
+    780,
+    800,
+    820,
+    840,
+    860,
+    880,
+    900
+  ],
+  "details_csv": "/home/wuy/Others/unified_train_predict_bundle/results/pred_unified_s1_pressure70(3).csv"
+}

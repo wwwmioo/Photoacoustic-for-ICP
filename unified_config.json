@@ -1,0 +1,63 @@
+{
+  "features_dir": "/home/wuy/Others",
+  "output_dir": "/home/wuy/Others/unified_train_predict_bundle/results",
+  "models_dir": "/home/wuy/Others/unified_train_predict_bundle/models",
+  "wavelengths": [
+    700,
+    720,
+    740,
+    760,
+    780,
+    800,
+    820,
+    840,
+    860,
+    880,
+    900
+  ],
+  "aggregate": "median",
+  "normal_range": [
+    140,
+    190
+  ],
+  "cv_folds": 5,
+  "random_state": 42,
+  "test_size": 0.3,
+  "train_patients": [
+    "s2_pressure160(2)",
+    "s23_pressure40(1)",
+    "s1_pressure40(2)",
+    "s2_pressure50(2)",
+    "s2_pressure190(1)",
+    "s11_pressure330(3)",
+    "s11_pressure330(2)",
+    "s1_pressure70(2)",
+    "s1_pressure70(1)",
+    "s23_pressure40(2)",
+    "s1_pressure40(1)",
+    "s2_pressure50(1)",
+    "s2_pressure80(3)",
+    "s2_pressure170(2)",
+    "s23_pressure40(3)",
+    "s2_pressure80(1)",
+    "s11_pressure270(2)",
+    "s1_pressure70(3)",
+    "s2_pressure160(1)",
+    "s11_pressure270(3)",
+    "s23_pressure40(4)"
+  ],
+  "test_patients": [
+    "s2_pressure80(2)",
+    "s11_pressure330(1)",
+    "s2_pressure190(3)",
+    "s1_pressure20(0)",
+    "s1_pressure20(2)",
+    "s2_pressure190(2)",
+    "s11_pressure270(1)",
+    "s11_pressure270(4)",
+    "s2_pressure170(1)"
+  ],
+  "model_name": "svm",
+  "patients": [],
+  "patients_file": ""
+}
